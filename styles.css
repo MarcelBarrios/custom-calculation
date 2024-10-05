@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    font-family: Helvetica, sans-serif, Arial;
+    color: rgb(22, 11, 11);
+    background-color: rgb(236, 213, 183);
+    background-image: url(https://img.freepik.com/premium-photo/colorful-3d-shapes-wallpapers-that-are-high-definition-high-definition_744422-2045.jpg);
+    background-size: cover;       /* Ensures the image covers the entire view */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;  /* Centers the image */
+
+}
+
+main {
+    border: 5px solid rgb(213, 101, 101);
+    padding: 2%;
+    background: rgba(244, 233, 233, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button, input, select {
+    font-size: 1em;
+}
+
+form * {
+    padding: 2%;
+}

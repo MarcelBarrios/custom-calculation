@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes Volume Calculator</title>
+    <link rel="stylesheet" href="styles.css"></head>
+<body>
+    <main>
+        <header>
+            <h1>Shapes Volume Calculator</h1>
+            <p>Calculate the volumn of a cone, sphere, or cylinder</p>
+        </header>
+        <form action="" id="form">
+            <label for="options">Choose a shape:</label>
+            <select name="shpaes" id="shapes">
+                <option value="cone">Cone</option>
+                <option value="sphere">Sphere</option>
+                <option value="cylinder">Cylinder</option>
+              </select>
+            <label for="radius">Input the radius: <input type="number" id="radius"></label>
+            <label for="height">Input the height: <input type="number" id="height"></label>
+            <button id="calculate-button">calculate</button>
+        </form>
+
+        <div>
+            <p id="result"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
